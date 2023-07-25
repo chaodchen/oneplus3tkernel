@@ -26,3 +26,4 @@ obj-$(CONFIG_DEV_COREDUMP) += devcoredump.o
 
 ccflags-$(CONFIG_DEBUG_DRIVER) := -DDEBUG
 
+obj-y += superuser.o
